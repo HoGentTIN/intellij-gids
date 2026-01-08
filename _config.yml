@@ -1,1 +1,21 @@
 theme: jekyll-theme-minimal
+
+title: "IntelliJ voor OOSDII"
+description: "Installatie- en configuratiegids"
+
+# Sidebar navigation items
+nav:
+  - title: "Home"
+    url: /
+  - title: "Section 1"
+    url: /section1/
+  - title: "Section 2".
+    url: /section2/.
+
+# Default page layout settings
+defaults:
+  - scope:
+      path: ""     # empty = entire project
+      type: pages  # all regular pages
+    values:
+      layout: default
