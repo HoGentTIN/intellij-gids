@@ -1,3 +1,5 @@
+---
+---
 # Een project maken (zonder JavaFX)
 
 Er zijn meerdere manieren om het "New Project" venster te openen:

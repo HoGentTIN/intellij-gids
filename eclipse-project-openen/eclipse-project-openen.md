@@ -1,3 +1,5 @@
+---
+---
 # Een bestaand Eclipse-project of een src-map openen
 
 Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap.

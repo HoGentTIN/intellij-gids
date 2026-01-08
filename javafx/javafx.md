@@ -1,3 +1,5 @@
+---
+---
 # Een JavaFX-project maken
 
 Binnen deze handleiding zijn er 2 secties: 

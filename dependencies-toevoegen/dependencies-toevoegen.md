@@ -1,3 +1,5 @@
+---
+---
 # Dependencies toevoegen
 
 ## 1. Basis: de vereiste dependencies voor JUnit (tests) en JavaFX (grafische projecten) toevoegen

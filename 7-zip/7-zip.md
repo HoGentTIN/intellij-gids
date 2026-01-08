@@ -1,3 +1,5 @@
+---
+---
 # Installatie 7-zip
 
 Download en installeer 7-zip:

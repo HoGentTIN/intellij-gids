@@ -1,3 +1,5 @@
+---
+---
 # Werken met Scene Builder integratie in IntelliJ
 
 Scene Builder wordt in OOSDII enkel gebruikt in hoofdstuk 5, maar kan ook nuttig zijn voor (latere) projecten.

@@ -1,3 +1,5 @@
+---
+---
 # Installatie IntelliJ
 
 Dit document legt stap voor stap uit hoe je IntelliJ (gemaakt door JetBrains) gratis kunt gebruiken met de academic license.

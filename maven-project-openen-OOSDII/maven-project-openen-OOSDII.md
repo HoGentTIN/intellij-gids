@@ -1,3 +1,5 @@
+---
+---
 # Een gedownload Maven-project importeren
 
 Een Maven-project kun je herkennen aan het feit dat in de hoofdmap naast de `src`-map ook een `pom.xml` bestand staat:

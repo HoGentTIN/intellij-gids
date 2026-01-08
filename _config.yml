@@ -6,7 +6,7 @@ description: "Installatie- en configuratiegids"
 # Sidebar navigation items
 navigation:
   - name: Home
-    link: ./index.html
+    link: ./README.html
   - name: Installatie software
     sublist:
       - name: JDK 21

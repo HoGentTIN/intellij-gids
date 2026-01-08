@@ -1,3 +1,5 @@
+---
+---
 # Configuratie IntelliJ
 
 Start IntelliJ op.
