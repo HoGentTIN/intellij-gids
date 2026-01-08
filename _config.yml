@@ -14,7 +14,26 @@ navigation:
         link: /intellij-gids/7-zip/7-zip.html
       - name: Scene Builder
         link: /intellij-gids/scenebuilder-installatie/scenebuilder-installatie.html
-
+  - name: Configuratie IntelliJ
+    link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
+  - name: Gebruik IntelliJ
+    sublist:
+      - name: Projecten maken (zonder JavaFX)
+        link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
+      - name: JavaFX-projecten maken
+        link: /intellij-gids/javafx/javafx.html
+      - name: Projecten importeren
+        link: /intellij-gids/maven-project-openen-OOSDII/maven-project-openen-OOSDII.html
+      - name: Dependencies toevoegen
+        link: /intellij-gids/dependencies-toevoegen/dependencies-toevoegen.html
+      - name: Runnen en debuggen
+        link: /intellij-gids/runnen-en-debuggen/runnen-en-debuggen.html
+      - name: Scene Builder integratie
+        link: /intellij-gids/scenebuilder/scenebuilder.html
+      - name: Nuttige links
+        link: /intellij-gids/nuttige-links/nuttige-links.html
+  - name: (oude) Eclipse-projecten openen
+    link: /intellij-gids/eclipse-project-openen/eclipse-project-openen.html
 
 defaults:
   - scope:
