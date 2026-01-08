@@ -3,17 +3,21 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 title: "IntelliJ voor OOSDII"
 description: "Installatie- en configuratiegids"
 
+url: "https://hogenttin.github.io"
+baseurl: "/intellij-gids"
+
 navigation:
   - name: Home
-    link: /index.html
+    link: "{{ site.baseurl }}/"
   - name: Installatie software
     sublist:
       - name: JDK 21
-        link: /jdk-21/jdk-21.html
+        link: "{{ site.baseurl }}/jdk-21/jdk-21.html"
       - name: 7-zip
-        link: /7-zip/7-zip.html
+        link: "{{ site.baseurl }}/7-zip/7-zip.html"
       - name: Scene Builder
-        link: /scenebuilder-installatie/scenebuilder-installatie.html
+        link: "{{ site.baseurl }}/scenebuilder-installatie/scenebuilder-installatie.html"
+
 
 defaults:
   - scope:
