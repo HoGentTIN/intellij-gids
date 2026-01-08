@@ -4,4 +4,4 @@
 
 Download en installeer 7-zip:
 
-https://www.7-zip.org/download.html
+<https://www.7-zip.org/download.html>

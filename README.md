@@ -2,7 +2,7 @@
 
 Deze github repository bevat alle instructies voor installatie en configuratie van IntelliJ IDEA. De .md bestanden in de repository worden weergegeven als website dankzij Github Pages.
 
-De website bevindt zich op https://hogenttin.github.io/intellij-gids/.
+De website bevindt zich op <https://hogenttin.github.io/intellij-gids/>.
 
 Als je een pagina wil toevoegen:
 - plaats de nieuwe .md file in de repository op een gepaste plaats

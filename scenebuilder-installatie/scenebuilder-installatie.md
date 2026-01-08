@@ -2,7 +2,7 @@
 ---
 # Installatie Scene Builder 24
 
-Ga naar https://gluonhq.com/products/scene-builder/
+Ga naar <https://gluonhq.com/products/scene-builder/>
 
 Download de juiste versie voor je besturingssysteem:
 
