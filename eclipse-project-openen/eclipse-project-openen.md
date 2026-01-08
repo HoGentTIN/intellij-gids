@@ -10,7 +10,7 @@ Ook als je enkel de `src`-map kreeg bij een oefening, kun  je onderstaande stapp
 
 ### 1.1. Algemeen
 
-1. Maak een nieuw Maven-project in IntelliJ (zie hoofdstuk over een niet-grafisch project aanmaken). Laat dit open staan. 
+1. Maak een nieuw Maven-project in IntelliJ (op [deze pagina](/maven-project-maken-OOSDII/maven-project-maken-OOSDII.md) vind je instructies om een niet-grafisch project aan te maken). Laat dit project open staan. 
 2. Open (buiten IntelliJ) de map met je Eclipse-project en navigeer naar de map `src`.
 3. Copy-paste alle submappen (domein, main, ...) **behalve** testen naar `main/java` in je nieuw project dat open staat in IntelliJ:
 
