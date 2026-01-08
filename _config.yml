@@ -4,13 +4,17 @@ title: "IntelliJ voor OOSDII"
 description: "Installatie- en configuratiegids"
 
 # Sidebar navigation items
-nav:
-  - title: "Home"
-    url: /
-  - title: "Section 1"
-    url: /section1/
-  - title: "Section 2".
-    url: /section2/.
+navigation:
+  - name: Home
+    link: ./index.html
+  - name: Installatie software
+    sublist:
+      - name: JDK 21
+        link: ./jdk-21/jdk-21.html
+      - name: 7-zip
+        link: ./7-zip/7-zip.html
+      - name: Scene Builder
+        link: ./scenebuilder-installatie/scenebuilder-installatie.html
 
 # Default page layout settings
 defaults:
