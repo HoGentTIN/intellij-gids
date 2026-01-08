@@ -35,7 +35,7 @@ Gebruik de `Shift+Shift` sneltoets en zoek naar "editor color scheme", kies een 
 
 ![intellij-configuratie-screenshot-colorschemes.png](screenshots/intellij-configuratie-screenshot-colorschemes.png)
 
-## 3. De JavaFX-plugin (nodig vanaf OOSDII hoofdstuk)
+## 3. De JavaFX-plugin (nodig vanaf OOSDII hoofdstuk 5)
 
 Gebruik de `Shift+Shift` sneltoets en zoek naar "plugins":
 
