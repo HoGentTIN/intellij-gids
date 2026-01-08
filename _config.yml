@@ -17,7 +17,7 @@ navigation:
         link: /intellij-gids/scenebuilder-installatie/scenebuilder-installatie.html
   - name: Configuratie IntelliJ
     link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
-  - name: Gebruik IntelliJ
+  - name: Aan de slag met IntelliJ
     link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
     sublist:
       - name: Projecten maken (zonder JavaFX)
@@ -30,7 +30,7 @@ navigation:
         link: /intellij-gids/dependencies-toevoegen/dependencies-toevoegen.html
       - name: Runnen en debuggen
         link: /intellij-gids/runnen-en-debuggen/runnen-en-debuggen.html
-      - name: Scene Builder integratie
+      - name: Scene Builder
         link: /intellij-gids/scenebuilder/scenebuilder.html
       - name: Nuttige links
         link: /intellij-gids/nuttige-links/nuttige-links.html
