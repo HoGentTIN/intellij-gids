@@ -5,15 +5,15 @@ description: "Installatie- en configuratiegids"
 
 navigation:
   - name: Home
-    link: ./index.html
+    link: /index.html
   - name: Installatie software
     sublist:
       - name: JDK 21
-        link: ./jdk-21/jdk-21.html
+        link: /jdk-21/jdk-21.html
       - name: 7-zip
-        link: ./7-zip/7-zip.html
+        link: /7-zip/7-zip.html
       - name: Scene Builder
-        link: ./scenebuilder-installatie/scenebuilder-installatie.html
+        link: /scenebuilder-installatie/scenebuilder-installatie.html
 
 defaults:
   - scope:
