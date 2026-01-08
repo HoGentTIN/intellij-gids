@@ -7,6 +7,7 @@ navigation:
   - name: Home
     link: /intellij-gids/
   - name: Installatie software
+    link: /intellij-gids/jdk-21/jdk-21.html
     sublist:
       - name: JDK 21
         link: /intellij-gids/jdk-21/jdk-21.html
@@ -17,6 +18,7 @@ navigation:
   - name: Configuratie IntelliJ
     link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
   - name: Gebruik IntelliJ
+    link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
     sublist:
       - name: Projecten maken (zonder JavaFX)
         link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
