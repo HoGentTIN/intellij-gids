@@ -1,12 +1,11 @@
-theme: jekyll-theme-minimal
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 title: "IntelliJ voor OOSDII"
 description: "Installatie- en configuratiegids"
 
-# Sidebar navigation items
 navigation:
   - name: Home
-    link: ./README.html
+    link: ./index.html
   - name: Installatie software
     sublist:
       - name: JDK 21
@@ -16,10 +15,9 @@ navigation:
       - name: Scene Builder
         link: ./scenebuilder-installatie/scenebuilder-installatie.html
 
-# Default page layout settings
 defaults:
   - scope:
-      path: ""     # empty = entire project
-      type: pages  # all regular pages
+      path: ""
+      type: pages
     values:
       layout: default
