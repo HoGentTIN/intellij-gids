@@ -6,4 +6,4 @@ title: Home
 
 Deze website bevat alle instructies voor installatie en configuratie van IntelliJ IDEA. 
 
-Doorloop alle installatie- en configuratiestappen in het menu links, zodat je alles juist is ingesteld voor gebruik tijdens de lessen en evaluaties.
+⚠️ Om te zorgen dat alles juist is ingesteld voor gebruik tijdens de lessen en evaluaties, moet je **minstens** de stappen onder **Installatie software** en **Configuratie IntelliJ** doorlopen.
