@@ -6,7 +6,7 @@ Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap.
 
 Ook als je enkel de `src`-map kreeg bij een oefening, kun  je onderstaande stappen uitvoeren.
 
-De werkwijze voor een niet-grafisch en een grafisch project zijn anders. JavaFX-projecten worden pas gebruikt vanaf hoofdstuk 5 in de cursus OOSDII. Je kan een JavaFX-project herkennen aan het feit dat in de `src`-map een package `gui` zit. Voor grafische projecten gebruik je de werkwijze [onder punt 2 op deze pagina](#een-grafisch-(JavaFX)-Eclipse-project-openen).
+De werkwijze voor een niet-grafisch en een grafisch project zijn anders. JavaFX-projecten worden pas gebruikt vanaf hoofdstuk 5 in de cursus OOSDII. Je kan een JavaFX-project herkennen aan het feit dat in de `src`-map een package `gui` zit. Voor grafische projecten gebruik je de werkwijze [onder punt 2 op deze pagina](#2-een-grafisch-javafx-eclipse-project-openen).
 
 ## 1. Een niet-grafisch Eclipse-project openen
 
