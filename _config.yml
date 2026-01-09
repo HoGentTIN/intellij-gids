@@ -19,19 +19,19 @@ navigation:
     link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
     sublist:
       - name: Inline completion uitschakelen (verplicht)
-        link: /intellij-gids/intellij-configuratie/intellij-inline-completion.md
+        link: /intellij-gids/intellij-configuratie/intellij-inline-completion.html
       - name: Weergave-opties in IntelliJ aanpassen
-        link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.md
+        link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.html
       - name: De JavaFX-plugin
-        link: /intellij-gids/intellij-configuratie/intellij-javafx-plugin.md
+        link: /intellij-gids/intellij-configuratie/intellij-javafx-plugin.html
       - name: Je workspace instellen
-        link: /intellij-gids/intellij-configuratie/intellij-workspace.md
+        link: /intellij-gids/intellij-configuratie/intellij-workspace.html
       - name: Standaardoptie voor openen van een project
-        link: /intellij-gids/intellij-configuratie/intellij-project-openen.md
+        link: /intellij-gids/intellij-configuratie/intellij-project-openen.html
       - name: Scene Builder integreren
-        link: /intellij-gids/intellij-configuratie/intellij-scenebuilder-integratie.md
+        link: /intellij-gids/intellij-configuratie/intellij-scenebuilder-integratie.html
       - name: Visual Paradigm integreren
-        link: /intellij-gids/intellij-configuratie/intellij-vp-integratie.md
+        link: /intellij-gids/intellij-configuratie/intellij-vp-integratie.html
 
   - name: Aan de slag met IntelliJ
     link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
