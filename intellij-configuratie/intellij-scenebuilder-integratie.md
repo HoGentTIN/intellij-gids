@@ -6,4 +6,4 @@ Open het "Settings" menu met `Ctrl+Alt+S`. Ga naar Languages & Frameworks > Java
 
 ![scenebuilder-in-intellij.png](screenshots/scenebuilder-in-intellij.png)
 
-Bevestig met OK.
+Bevestig met **OK**.

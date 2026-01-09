@@ -4,10 +4,10 @@ title: "Software voor OOSDII"
 description: "Installatie- en configuratiegids"
 
 navigation:
-  - name: Home
+  - name: Welkom
     link: /intellij-gids/
   - name: Installatie software
-    link: /installatie-software/installatie-software.html
+    link: /intellij-gids/jdk-21/jdk-21.html
     sublist:
       - name: JDK 21
         link: /intellij-gids/jdk-21/jdk-21.html
@@ -16,11 +16,11 @@ navigation:
       - name: Scene Builder
         link: /intellij-gids/scenebuilder-installatie/scenebuilder-installatie.html
   - name: Configuratie IntelliJ
-    link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
+    link: /intellij-gids/intellij-configuratie/intellij-inline-completion.html
     sublist:
       - name: Inline completion uitschakelen (verplicht)
         link: /intellij-gids/intellij-configuratie/intellij-inline-completion.html
-      - name: De JavaFX-plugin
+      - name: De JavaFX-plugin (verplicht)
         link: /intellij-gids/intellij-configuratie/intellij-javafx-plugin.html
       - name: Weergave-opties in IntelliJ aanpassen
         link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.html
