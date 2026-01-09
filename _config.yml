@@ -17,20 +17,36 @@ navigation:
         link: /intellij-gids/scenebuilder-installatie/scenebuilder-installatie.html
   - name: Configuratie IntelliJ
     link: /intellij-gids/intellij-configuratie/intellij-configuratie.html
+    sublist:
+      - name: Inline completion uitschakelen (verplicht)
+        link: /intellij-gids/intellij-configuratie/intellij-inline-completion.md
+      - name: Weergave-opties in IntelliJ aanpassen
+        link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.md
+      - name: De JavaFX-plugin
+        link: /intellij-gids/intellij-configuratie/intellij-javafx-plugin.md
+      - name: Je workspace instellen
+        link: /intellij-gids/intellij-configuratie/intellij-workspace.md
+      - name: Standaardoptie voor openen van een project
+        link: /intellij-gids/intellij-configuratie/intellij-project-openen.md
+      - name: Scene Builder integreren
+        link: /intellij-gids/intellij-configuratie/intellij-scenebuilder-integratie.md
+      - name: Visual Paradigm integreren
+        link: /intellij-gids/intellij-configuratie/intellij-vp-integratie.md
+
   - name: Aan de slag met IntelliJ
     link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
     sublist:
-      - name: Projecten maken (zonder JavaFX)
+      - name: Een project maken (zonder JavaFX)
         link: /intellij-gids/maven-project-maken-OOSDII/maven-project-maken-OOSDII.html
-      - name: JavaFX-projecten maken
+      - name: Een JavaFX-project maken
         link: /intellij-gids/javafx/javafx.html
-      - name: Projecten importeren
+      - name: Een gedownload Maven-project importeren
         link: /intellij-gids/maven-project-openen-OOSDII/maven-project-openen-OOSDII.html
       - name: Dependencies toevoegen
         link: /intellij-gids/dependencies-toevoegen/dependencies-toevoegen.html
       - name: Runnen en debuggen
         link: /intellij-gids/runnen-en-debuggen/runnen-en-debuggen.html
-      - name: Scene Builder
+      - name: Werken met Scene Builder
         link: /intellij-gids/scenebuilder/scenebuilder.html
       - name: Nuttige links
         link: /intellij-gids/nuttige-links/nuttige-links.html
