@@ -7,7 +7,7 @@ navigation:
   - name: Home
     link: /intellij-gids/
   - name: Installatie software
-    link: /intellij-gids/jdk-21/jdk-21.html
+    link: /installatie-software/installatie-software.html
     sublist:
       - name: JDK 21
         link: /intellij-gids/jdk-21/jdk-21.html
@@ -20,10 +20,10 @@ navigation:
     sublist:
       - name: Inline completion uitschakelen (verplicht)
         link: /intellij-gids/intellij-configuratie/intellij-inline-completion.html
-      - name: Weergave-opties in IntelliJ aanpassen
-        link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.html
       - name: De JavaFX-plugin
         link: /intellij-gids/intellij-configuratie/intellij-javafx-plugin.html
+      - name: Weergave-opties in IntelliJ aanpassen
+        link: /intellij-gids/intellij-configuratie/intellij-weergave-opties.html
       - name: Je workspace instellen
         link: /intellij-gids/intellij-configuratie/intellij-workspace.html
       - name: Standaardoptie voor openen van een project
