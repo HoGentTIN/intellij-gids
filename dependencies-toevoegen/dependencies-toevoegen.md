@@ -8,23 +8,24 @@
 
 1. Open de `pom.xml` van je project en plak onderstaande code net voor `</project>`:
 
-    ```xml
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>6.0.1</version>
-            <scope>test</scope>
-        </dependency>
+   ```xml
+   <dependencies>
+       <dependency>
+           <groupId>org.junit.jupiter</groupId>
+           <artifactId>junit-jupiter</artifactId>
+           <version>6.0.1</version>
+           <scope>test</scope>
+       </dependency>
 
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-engine</artifactId>
-            <version>6.0.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-    ```
+       <dependency>
+           <groupId>org.junit.platform</groupId>
+           <artifactId>junit-platform-engine</artifactId>
+           <version>6.0.1</version>
+           <scope>test</scope>
+       </dependency>
+   </dependencies>
+   ```
+   
 2. Sla het bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren.
 
     ![](screenshots/5-toevoegen-dependency.png)
