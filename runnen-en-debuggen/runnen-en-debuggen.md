@@ -4,7 +4,7 @@
 
 ## 1. Java-code runnen
 
-Let op: JavaFX-projecten ga je via Maven runnen. Instructies hiervoor vind je in het hoofdstuk "Een JavaFX-project maken". Onderstaande instructies gelden voor niet-grafische projecten.
+Let op: JavaFX-projecten ga je via Maven runnen. Instructies hiervoor vind je onder *Een JavaFX-project maken*. Onderstaande instructies gelden voor niet-grafische projecten.
 
 Er zijn verschillende manieren om code in een Java-bestand te runnen:
 

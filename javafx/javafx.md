@@ -32,7 +32,7 @@ Ga hiervoor naar het tabje "installed", selecteer de JavaFX plugin en controleer
 
 -->
 
-Voor je je eerste project maakt: controleer of de JavaFX-plugin actief is (zie hoofdstuk over de configuratie van IntelliJ).
+Voor je je eerste project maakt: controleer of de JavaFX-plugin actief is (zie pagina *De JavaFX-plugin*).
 
 Maak een nieuw project aan:
 

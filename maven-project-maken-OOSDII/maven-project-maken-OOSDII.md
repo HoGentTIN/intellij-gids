@@ -35,4 +35,4 @@ In het linkerpaneel zie je de projectstructuur. Deze volgt de typische Maven-str
 
     - In deze map ga je dezelfde mappenstructuur gebruiken als in main (enkel als je tests aanmaakt).
 
-Als je JUnit tests wil gebruiken in je project, moet je nog de nodige dependencies opnemen. Instructies hiervoor vind je in het hoofdstuk over dependencies.
+Als je JUnit tests wil gebruiken in je project, moet je nog de nodige dependencies opnemen. Instructies hiervoor vind je op de pagina over dependencies.

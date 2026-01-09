@@ -10,7 +10,7 @@ Ook als je enkel de `src`-map kreeg bij een oefening, kun  je onderstaande stapp
 
 ### 1.1. Algemeen
 
-1. Maak een nieuw Maven-project in IntelliJ (zie hoofdstuk over een niet-grafisch project aanmaken). Laat dit open staan. 
+1. Maak een nieuw Maven-project in IntelliJ (zie *Een project maken (zonder JavaFX)*). Laat dit open staan. 
 2. Open (buiten IntelliJ) de map met je Eclipse-project en navigeer naar de map `src`.
 3. Copy-paste alle submappen (domein, main, ...) **behalve** testen naar `main/java` in je nieuw project dat open staat in IntelliJ:
 
@@ -69,7 +69,7 @@ Herhaal bovenstaande stappen als er ook tests zijn voor klassen uit andere packa
         </dependency>
     </dependencies>
     ```
-7. Sla het `pom.xml` bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren (meer informatie over het toevoegen van dependencies vind je in het apart hoofdstuk hierover):
+7. Sla het `pom.xml` bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren (meer informatie over het toevoegen van dependencies vind je onder *Dependencies toevoegen*):
 
 ![alt text](screenshots/mavensync.png)
 
@@ -84,7 +84,7 @@ Tip: als je meerdere JUnit-testbestanden hebt, kun je alle tests tegelijk laten 
 
 ![alt text](screenshots/run-all-tests.png)
 
-9. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven in het hoofdstuk over runnen en debuggen.
+9. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven onder *Runnen en debuggen*.
 
 ## 2. Een grafisch (JavaFX) Eclipse-project openen
 
@@ -94,7 +94,7 @@ JavaFX-projecten worden pas gebruikt vanaf hoofdstuk 5 in de cursus OOSDII. Je k
 
 Volg onderstaande stappen:
 
-1. Maak een JavaFX-project via File > New > Project... (zie ook het hoofdstuk over JavaFX-project aanmaken). Selecteer de juiste opties en geef je project een naam.
+1. Maak een JavaFX-project via File > New > Project... (zie ook *Een JavaFX-project maken*). Selecteer de juiste opties en geef je project een naam.
 
     ![alt text](screenshots/doosmetstring-1.png)
 
@@ -118,7 +118,7 @@ Volg onderstaande stappen:
 
 ![alt text](screenshots/doosmetstring-4.png)
 
-5. Om het project te runnen, moet je nog een correcte Maven runconfiguratie maken. Volg hiervoor de stappen in het hoofdstuk "Een JavaFX-project maken", die zijn samengevat in onderstaand screenshot:
+5. Om het project te runnen, moet je nog een correcte Maven runconfiguratie maken. Volg hiervoor de stappen onder *Een JavaFX-project maken*, die zijn samengevat in onderstaand screenshot:
 
 ![alt text](screenshots/doosmetstring-5.png)
 
@@ -174,4 +174,4 @@ Bewaar en voer de Maven synchronisatie uit.
 
 ![alt text](screenshots/doosmetstring-11.png)
 
-Nu kun je de tests uitvoeren zoals beschreven in de sectie over niet-grafische Eclipse projecten met tests, eerder in dit hoofdstuk.
+Nu kun je de tests uitvoeren zoals beschreven in de sectie over niet-grafische Eclipse projecten.
