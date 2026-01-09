@@ -50,7 +50,7 @@ navigation:
         link: /intellij-gids/scenebuilder/scenebuilder.html
       - name: Nuttige links
         link: /intellij-gids/nuttige-links/nuttige-links.html
-  - name: (oude) Eclipse-projecten openen
+  - name: Een bestaand Eclipse-project of een src-map openen
     link: /intellij-gids/eclipse-project-openen/eclipse-project-openen.html
 
 defaults:

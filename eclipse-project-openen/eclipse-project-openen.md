@@ -27,62 +27,58 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 
 1. Rechterklik op de java-map, New > Package
 
-![testpackagemaken](screenshots/testpackagemaken.png)
+    ![testpackagemaken](screenshots/testpackagemaken.png)
 
 2. Geef het package de juiste naam en bevestig met Enter.
 
-![package-naamgeven](screenshots/package-naamgeven.png)
+    ![package-naamgeven](screenshots/package-naamgeven.png)
 
 Herhaal bovenstaande stappen als er ook tests zijn voor klassen uit andere packages (bv. `util`).
 
 3. Copy-paste de inhoud van de map `testen` naar het juiste package onder `test/java` in je project in IntelliJ. 
 
-![test slepen](screenshots/testslepen.png)
+    ![test slepen](screenshots/testslepen.png)
 
 4. Bevestig opnieuw met "Refactor".
 
 5. Controleer dat je test zich op dezelfde plaats in de mappenstructuur bevindt als de te testen klasse:
 
-![alt text](screenshots/zelfdemappenstructuur.png)
+    ![alt text](screenshots/zelfdemappenstructuur.png)
 
 6. Vul de JUnit dependencies aan in de `pom.xml`: plak onderstaande code net _voor_ `</project>`:
 
-    ```xml
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.13.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.13.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-    ```
+   ```xml
+   <dependencies>
+       <dependency>
+           <groupId>org.junit.jupiter</groupId>
+           <artifactId>junit-jupiter</artifactId>
+           <version>6.0.1</version>
+           <scope>test</scope>
+       </dependency>
+
+       <dependency>
+           <groupId>org.junit.platform</groupId>
+           <artifactId>junit-platform-engine</artifactId>
+           <version>6.0.1</version>
+           <scope>test</scope>
+       </dependency>
+   </dependencies>
+   ```
+
 7. Sla het `pom.xml` bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren (meer informatie over het toevoegen van dependencies vind je onder *Dependencies toevoegen*):
 
-![alt text](screenshots/mavensync.png)
+    ![alt text](screenshots/mavensync.png)
 
 
 8. Je ziet dat het icoontje bij de test er nu anders uitziet omdat de JUnit test herkend wordt. Je kan deze uitvoeren met rechterklik op het testbestand > Run 'TestKlasse':
 
-![run test](screenshots/runtest.png)
+    ![run test](screenshots/runtest.png)
 
 De resultaten van de tests verschijnen onderaan in het Run tool window.
 
 Tip: als je meerdere JUnit-testbestanden hebt, kun je alle tests tegelijk laten uitvoeren door rechterklik op de java-map onder test > Run 'All Tests':
 
-![alt text](screenshots/run-all-tests.png)
+    ![alt text](screenshots/run-all-tests.png)
 
 9. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven onder *Runnen en debuggen*.
 
@@ -102,50 +98,50 @@ Volg onderstaande stappen:
 
 2. Verwijder onder `main/java` alle bestanden en ook het package `org.example.<projectnaam>`:
 
-![alt text](screenshots/doosmetsring-2.png)
+    ![alt text](screenshots/doosmetsring-2.png)
 
 3. Copy-paste alle niet-testbestanden (in hun packages) uit src naar de java-map in IntelliJ. Bevestig met "OK".
 
-![alt text](screenshots/doosmetstring-3.png)
+    ![alt text](screenshots/doosmetstring-3.png)
 
 4. Pas `pom.xml` aan zodat onder `<mainClass>` de StartUp-klasse vermeld wordt:
 
-    ```xml
-    <mainClass>main.StartUp</mainClass>
-    ```
+   ```xml
+   <mainClass>main.StartUp</mainClass>
+   ```
 
     Bewaar en doe een Maven synchronisatie.
 
-![alt text](screenshots/doosmetstring-4.png)
+    ![alt text](screenshots/doosmetstring-4.png)
 
 5. Om het project te runnen, moet je nog een correcte Maven runconfiguratie maken. Volg hiervoor de stappen onder *Een JavaFX-project maken*, die zijn samengevat in onderstaand screenshot:
 
-![alt text](screenshots/doosmetstring-5.png)
+    ![alt text](screenshots/doosmetstring-5.png)
 
 
 ### 2.2. Als het project testen bevat
 
 1. Je ziet dat de test-map ontbreekt in de standaard mappenstructuur van een JavaFX-project. We gaan deze toevoegen. Rechts-klik op de `src`-map en selecter New > Directory:
 
-![alt text](screenshots/doosmetstring-6.png)
+    ![alt text](screenshots/doosmetstring-6.png)
 
 2. In het pop-upvenster selecteer je "test\\java". Bevestig met Enter.
 
-![alt text](screenshots/doosmetstring-7.png)
+    ![alt text](screenshots/doosmetstring-7.png)
 
 3. Kijk voor welke klassen tests aanwezig zijn in het Eclipse-project. Zorg dat al hun packages aanwezig zijn in de java-map onder test. Maak ze aan met rechts-klik > New > Package:
 
-![alt text](screenshots/doosmetstring-8.png)
+    ![alt text](screenshots/doosmetstring-8.png)
 
 4. Nu kun je de tests uit het bestaande project copy-pasten naar de juiste locatie:
 
-![alt text](screenshots/doosmetstring-9.png)
+    ![alt text](screenshots/doosmetstring-9.png)
 
 Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op "Refactor anyway". 
 
 ### 2.3. Foutmeldingen in de testklassen
 
-Als je testklasse gebruik maakt van geparametriseerde tests, krijg je bij de imports de foutmelding "Cannot resolve symbol 'params'". De dependency voor `params` ontbreekt immers in `pom.xml`. Vervang de JUnit dependencies (let wel: enkel de JUnit dependencies!) door onderstaande:
+Als je testklasse gebruik maakt van geparametriseerde tests, krijg je bij de imports mogelijk de foutmelding "Cannot resolve symbol 'params'". Dit wijst erop dat de dependency voor `params` ontbreekt in `pom.xml`. Vervang de JUnit dependencies (let wel: enkel de JUnit dependencies!) door onderstaande:
 
 ```xml
 <dependency>
