@@ -22,8 +22,4 @@ Sluit Visual Paradigm af.
 
 ![VP-intelliJ-stap5.png](screenshots/VP-intelliJ-stap5.png)
 
-Start IntelliJ op. Wanneer je een Java-project geopend hebt, kun je nu de integratie met Visual Paradigm gebruiken door rechts te klikken op het project, of via het Tools-menu:
-
-![VP-intelliJ-stap6.png](screenshots/VP-intelliJ-stap6.png)
-
-![VP-intelliJ-stap7.png](screenshots/VP-intelliJ-stap7.png)
+Meer uitleg over hoe je de VP integratie kan gebruiken in IntelliJ vind je in [deze pdf-handleiding](/intellij-gids/intellij-configuratie/IntelliJEnVP_Geintegreerd.pdf).

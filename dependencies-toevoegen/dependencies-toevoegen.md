@@ -95,11 +95,11 @@ Merk op: in principe heb je de `javafx-fxml` dependency alleen nodig als je met 
 
 5. Open je `pom.xml` en zorg dat er een `<dependencies>`-element staat (net voor `</project>`):
 
-    ```xml
-    <dependencies>
-    
-    </dependencies>
-    ```
+   ```xml
+   <dependencies>
+   
+   </dependencies>
+   ```
 
 6. Plak het gekopieerde dependency-blok binnen deze `<dependencies>` tag.
 
