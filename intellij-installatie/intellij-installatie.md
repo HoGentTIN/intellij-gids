@@ -13,6 +13,8 @@ We nemen de volgende stappen door:
 
 ## 1. Education Benefits activeren op GitHub
 
+We veronderstellen dat je al een GitHub-account hebt dat gelinkt is aan je HOGENT-email. Indien niet, maak dit eerst aan op [github.com](https://github.com).
+
 Ga naar de GitHub-pagina voor [Education Benefits](https://github.com/settings/education/benefits) en klik op de groene knop "Start an application".
 
 ![](screenshots/github-1.png)

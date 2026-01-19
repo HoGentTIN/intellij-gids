@@ -16,8 +16,10 @@ Er zijn verschillende manieren om code in een Java-bestand te runnen:
 
 ## 2. Java-code debuggen
 
-Bij elke optie hierboven om te runnen, kun je ook de alternatieve "debug" optie vinden. 
+Bij elke optie hierboven om te runnen, kun je ook de alternatieve "debug" optie vinden (groene kever-icoon). 
 
 Tijdens het debuggen wordt automatisch het Debugger tool window geopend onder de editor, waarin je alle gebruikelijke debugging-features vindt.
 
-De debugger zal de uitvoering van de code pauzeren wanneer een lijn met een breakpoint bereikt wordt. Breakpoints kun je in de marge van de code ("gutter") naast de lijnnummers plaatsen. 
+De debugger zal de uitvoering van de code pauzeren net vóór een lijn met een **breakpoint** bereikt wordt. Breakpoints kun je in de marge van de code ("gutter") op de lijnnummers plaatsen. Klik op het lijnnummer om een breakpoint te introduceren.
+
+Met `F8` (Step over) kun je de applicatie regel per regel laten uitvoeren nadat een breakpoint werd bereikt. 
