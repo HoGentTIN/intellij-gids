@@ -21,5 +21,3 @@ Voer Visual Paradigm als administrator uit:
 Sluit Visual Paradigm af.
 
 ![VP-intelliJ-stap5.png](screenshots/VP-intelliJ-stap5.png)
-
-Meer uitleg over hoe je de VP integratie kan gebruiken in IntelliJ vind je in [deze pdf-handleiding](/intellij-gids/intellij-configuratie/IntelliJEnVP_Geintegreerd.pdf).

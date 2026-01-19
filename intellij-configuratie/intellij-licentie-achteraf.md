@@ -2,7 +2,9 @@
 ---
 # Licentie achteraf toevoegen
 
-Zoek met `Shift+Shift` naar "Manage Subscriptions...". Selecteer "IntelliJ IDEA" en klik op "Activate Another Subscription...":
+Zoek met `Shift+Shift` naar "Manage Subscriptions...". 
+
+Selecteer "IntelliJ IDEA" en klik op "Activate Another Subscription...":
 
 ![Activate another subscription](screenshots/activate-another-subcription.png)
 

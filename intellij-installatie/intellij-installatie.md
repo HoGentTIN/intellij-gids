@@ -6,10 +6,10 @@ Dit document legt stap voor stap uit hoe je IntelliJ (gemaakt door JetBrains) gr
 
 We nemen de volgende stappen door:
 
-1. Activeren van de 'Education Benefits' op GitHub. Hiermee krijg je als student toegang tot gratis proefversies van betaalde software. Bekijk ook de [volledige lijst](https://education.github.com/pack) voor andere interessante tools.
-2. Koppelen van je JetBrains-account aan je GitHub-account, zodat JetBrains jouw studentenstatus herkent.
-3. Installeren van IntelliJ via de JetBrains Toolbox.
-4. Activeren van de licentie.
+1. [Education Benefits activeren op GitHub](#1-education-benefits-activeren-op-github). Hiermee krijg je als student toegang tot gratis proefversies van betaalde software. Bekijk ook de [volledige lijst](https://education.github.com/pack) voor andere interessante tools.
+2. [JetBrains-account koppelen aan GitHub](#2-jetbrains-account-koppelen-aan-github), zodat JetBrains jouw studentenstatus herkent. 
+3. [IntelliJ installeren via de JetBrains Toolbox](#3-intellij-installeren-via-toolbox)  
+4. [IntelliJ-licentie activeren](#4-intellij-licentie-activeren)
 
 ## 1. Education Benefits activeren op GitHub
 
