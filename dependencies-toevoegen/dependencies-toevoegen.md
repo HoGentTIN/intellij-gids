@@ -13,14 +13,7 @@
        <dependency>
            <groupId>org.junit.jupiter</groupId>
            <artifactId>junit-jupiter</artifactId>
-           <version>6.0.1</version>
-           <scope>test</scope>
-       </dependency>
-
-       <dependency>
-           <groupId>org.junit.platform</groupId>
-           <artifactId>junit-platform-engine</artifactId>
-           <version>6.0.1</version>
+           <version>5.13.4</version>
            <scope>test</scope>
        </dependency>
    </dependencies>
@@ -32,7 +25,7 @@
 
 3. Na synchronisatie zie je onder "External Libraries" niet alleen de toegevoegde dependency, maar ook de transitieve dependencies. Dit zijn extra libraries die jouw dependency nodig heeft.
 
-    ![](screenshots/6-maven-sync.png)
+    ![](screenshots/6-na-maven-sync.png)
 
 ### 1.2. Een project met tests en JavaFX (grafisch)
 
@@ -52,21 +45,13 @@ Volg precies dezelfde stappen als hierboven, maar plak onderstaande dependencies
         <version>21.0.6</version>
     </dependency>
 
-    <!-- Aggregate JUnit Jupiter (API + params + engine) -->
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
-        <version>6.0.1</version>
+        <version>5.13.4</version>
         <scope>test</scope>
     </dependency>
 
-    <!-- JUnit Platform engine needed by the IDE runner -->
-    <dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-engine</artifactId>
-        <version>6.0.1</version>
-        <scope>test</scope>
-    </dependency>
 </dependencies>
 ```
 
@@ -109,7 +94,7 @@ Merk op: in principe heb je de `javafx-fxml` dependency alleen nodig als je met 
 
 8. Na synchronisatie zie je onder "External Libraries" niet alleen de toegevoegde dependency, maar ook de transitieve dependencies. Dit zijn extra libraries die jouw dependency nodig heeft.
 
-    ![](screenshots/6-maven-sync.png)
+    ![](screenshots/6-na-maven-sync.png)
 
 9. Deze transitieve dependencies kan je ook terugvinden in Maven repository, onderaan de pagina van de gekozen dependency.
 
