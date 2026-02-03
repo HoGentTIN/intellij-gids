@@ -69,11 +69,11 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 
     ![run test](screenshots/runtest.png)
 
-De resultaten van de tests verschijnen onderaan in het Run tool window.
+    De resultaten van de tests verschijnen onderaan in het Run tool window.
 
-Tip: als je meerdere JUnit-testbestanden hebt, kun je alle tests tegelijk laten uitvoeren door rechterklik op de java-map onder test > Run 'All Tests':
+    Tip: als je meerdere JUnit-testbestanden hebt, kun je alle tests tegelijk laten uitvoeren door rechterklik op de java-map onder test > Run 'All Tests':
 
-![run all tests](screenshots/run-all-tests.png)
+    ![run all tests](screenshots/run-all-tests.png)
 
 10. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven onder *Runnen en debuggen*.
 
