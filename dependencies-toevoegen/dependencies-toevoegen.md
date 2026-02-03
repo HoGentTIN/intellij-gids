@@ -2,6 +2,11 @@
 ---
 # Dependencies toevoegen
 
+Je kan de standaard dependencies toevoegen voor de projecten die we gebruiken in OOSDII, of je kan een stap verder gaan en zelf extra dependencies toevoegen:
+
+1. [Basis: de vereiste dependencies voor JUnit (tests) en JavaFX (grafische projecten) toevoegen](#1-basis-de-vereiste-dependencies-voor-junit-tests-en-javafx-grafische-projecten-toevoegen)
+2. [Extra: zelf geschikte dependencies zoeken en toevoegen](#2-extra-zelf-geschikte-dependencies-zoeken-en-toevoegen)
+
 ## 1. Basis: de vereiste dependencies voor JUnit (tests) en JavaFX (grafische projecten) toevoegen
 
 ### 1.1. Een project met tests, maar zonder JavaFX (niet grafisch)

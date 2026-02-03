@@ -2,13 +2,14 @@
 ---
 # Een bestaand Eclipse-project of een src-map openen
 
-Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap.
+Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap. Ook als je enkel de `src`-map kreeg bij een oefening, kun je onderstaande stappen uitvoeren.
 
-Ook als je enkel de `src`-map kreeg bij een oefening, kun  je onderstaande stappen uitvoeren.
+**De werkwijze om een project te openen verschilt afhankelijk van het projecttype:**
 
-De werkwijze voor een niet-grafisch en een grafisch project zijn anders. JavaFX-projecten worden pas gebruikt vanaf hoofdstuk 5 in de cursus OOSDII. Je kan een JavaFX-project herkennen aan het feit dat in de `src`-map een package `gui` zit. Voor grafische projecten gebruik je de werkwijze [onder punt 2 op deze pagina](#2-een-grafisch-javafx-eclipse-project-openen).
+1. [Een niet-grafisch project openen](#1-een-niet-grafisch-project-openen): werkwijze voor standaard Java-projecten zonder GUI.
+2. [Een grafisch (JavaFX) project openen](#2-een-grafisch-javafx-project-openen): werkwijze voor projecten met een GUI, herkenbaar aan een `gui`-package in `src`. Deze worden gebruikt vanaf hoofdstuk 5 in de cursus OOSDII.
 
-## 1. Een niet-grafisch Eclipse-project openen
+## 1. Een niet-grafisch project openen
 
 ### 1.1. Algemeen
 
@@ -77,9 +78,7 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 
 10. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven onder *Runnen en debuggen*.
 
-## 2. Een grafisch (JavaFX) Eclipse-project openen
-
-JavaFX-projecten worden pas gebruikt vanaf hoofdstuk 5 in de cursus OOSDII. Je kan een JavaFX-project herkennen aan het feit dat in de `src`-map een package `gui` zit. 
+## 2. Een grafisch (JavaFX) project openen
 
 ### 2.1. Algemeen
 

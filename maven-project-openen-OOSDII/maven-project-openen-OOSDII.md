@@ -6,6 +6,8 @@ Een Maven-project kun je herkennen aan het feit dat in de hoofdmap naast de `src
 
 ![pom-xml-bestand](screenshots/pomxml.png)
 
+> ⚠️ Als `pom.xml` niet aanwezig is, volg dan de stappen onder [Een bestaand Eclipse-project of een src-map openen](/intellij-gids/eclipse-project-openen/eclipse-project-openen.md).
+
 Open IntelliJ en ga in het Main menu naar File > Open...
 
 De map die je als standaard worskpace hebt ingesteld in de configuratie, wordt geopend. Het is dus handig als je je te importeren project daar klaarzet.
