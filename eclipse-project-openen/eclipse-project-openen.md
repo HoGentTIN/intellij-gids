@@ -4,14 +4,15 @@
 
 Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap. Ook als je enkel de `src`-map kreeg bij een oefening, kun je onderstaande stappen uitvoeren.
 
-**De werkwijze om een project te openen verschilt afhankelijk van het projecttype:**
+## 1. Controleer of het om een grafisch project gaat
 
-1. [Een niet-grafisch project openen](#1-een-niet-grafisch-project-openen): werkwijze voor standaard Java-projecten zonder GUI.
-2. [Een grafisch (JavaFX) project openen](#2-een-grafisch-javafx-project-openen): werkwijze voor projecten met een GUI, herkenbaar aan een `gui`-package in `src`. Deze worden gebruikt vanaf hoofdstuk 5 in de cursus OOSDII.
+Open de `src`-map: zit hier een package (folder) `gui` in? Dan is dit een grafisch project. Volg de stappen onder [Een grafisch (JavaFX) project openen](#2-een-grafisch-javafx-project-openen).
 
-## 1. Een niet-grafisch project openen
+Indien het package `gui` niet aanwezig is, is dit een niet-grafisch project. Volg de stappen onder [Een niet-grafisch project openen](#1-een-niet-grafisch-project-openen).
 
-### 1.1. Algemeen
+## 2. Een niet-grafisch project openen
+
+### 2.1. Algemeen
 
 1. Maak een nieuw Maven-project in IntelliJ (zie *Een project maken (zonder JavaFX)*). Laat dit open staan. 
 2. Open (buiten IntelliJ) de map met je Eclipse-project en navigeer naar de map `src`.
@@ -24,7 +25,7 @@ Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap. Ook al
 
     ![bestanden onder java](screenshots/bestandenonderjava.png)
 
-### 1.2. Als het project testen bevat
+### 2.2. Als het project testen bevat
 
 In Maven _moeten_ de tests in een package komen met dezelfde naam als het package waarin de te testen klasse staat. Als je bv. een test hebt voor een klasse in het package `domein`, maak dan het package `domein` ook onder `test/java` en zet de bijhorende tests in dat package. Hieronder staat hoe je dit kan doen:
 
@@ -78,9 +79,9 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 
 10. Om de code in het project uit te voeren, run je simpelweg de code in het StartUp-bestand. Dit kan op de manieren beschreven onder *Runnen en debuggen*.
 
-## 2. Een grafisch (JavaFX) project openen
+## 3. Een grafisch (JavaFX) project openen
 
-### 2.1. Algemeen
+### 3.1. Algemeen
 
 Volg onderstaande stappen:
 
@@ -113,7 +114,7 @@ Volg onderstaande stappen:
     ![alt text](screenshots/doosmetstring-5.png)
 
 
-### 2.2. Als het project testen bevat
+### 3.2. Als het project testen bevat
 
 1. Je ziet dat de test-map ontbreekt in de standaard mappenstructuur van een JavaFX-project. We gaan deze toevoegen. Rechts-klik op de `src`-map en selecter New > Directory:
 
@@ -133,7 +134,7 @@ Volg onderstaande stappen:
 
 Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op **Refactor anyway**. 
 
-### 2.3. Foutmeldingen in de testklassen
+### 3.3. Foutmeldingen in de testklassen
 
 Als je testklasse gebruik maakt van geparametriseerde tests, krijg je bij de imports mogelijk de foutmelding "Cannot resolve symbol 'params'". Dit wijst erop dat de dependency voor `params` ontbreekt in `pom.xml`. Vervang de JUnit dependencies (let wel: enkel de JUnit dependencies!) door onderstaande:
 
