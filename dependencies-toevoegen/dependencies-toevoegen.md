@@ -17,7 +17,13 @@ Je kan de standaard dependencies toevoegen voor de projecten die we gebruiken in
    <dependencies>
        <dependency>
            <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter</artifactId>
+           <artifactId>junit-jupiter-api</artifactId>
+           <version>5.13.4</version>
+           <scope>test</scope>
+       </dependency>
+       <dependency>
+           <groupId>org.junit.jupiter</groupId>
+           <artifactId>junit-jupiter-params</artifactId>
            <version>5.13.4</version>
            <scope>test</scope>
        </dependency>
@@ -52,7 +58,14 @@ Volg precies dezelfde stappen als hierboven, maar plak onderstaande dependencies
 
     <dependency>
         <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.13.4</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
         <version>5.13.4</version>
         <scope>test</scope>
     </dependency>

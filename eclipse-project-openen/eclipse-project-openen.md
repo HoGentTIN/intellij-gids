@@ -55,7 +55,13 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
    <dependencies>
        <dependency>
            <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter</artifactId>
+           <artifactId>junit-jupiter-api</artifactId>
+           <version>5.13.4</version>
+           <scope>test</scope>
+       </dependency>
+       <dependency>
+           <groupId>org.junit.jupiter</groupId>
+           <artifactId>junit-jupiter-params</artifactId>
            <version>5.13.4</version>
            <scope>test</scope>
        </dependency>
