@@ -4,9 +4,9 @@
 
 ### De menubalk weergeven wanneer je in een project werkt
 
-Open het "Settings" menu met `Ctrl+Alt+S`.
+Open het **Settings** menu met `Ctrl+Alt+S`.
 
-Voeg de menubalk toe: Appearance & Behavior > Appearance > Main menu: Show above Main Toolbar
+Voeg de menubalk toe: **Appearance & Behavior** > **Appearance** > **Main menu: Show above Main Toolbar**
 
 ![intellij-configuratie-screenshot-show-mainmenu.png](screenshots/intellij-configuratie-screenshot-show-mainmenu.png)
 

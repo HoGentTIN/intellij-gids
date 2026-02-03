@@ -45,7 +45,7 @@ Om een eerste keer te runnen via Maven:
 
     ![maven-run-pt1](screenshots/9-maven-run-pt1.png) 
 
-3. Rechterklik op één van de geselecteerde lijnen en selecteer "Run 'projectnaam...'":
+3. Rechterklik op één van de geselecteerde lijnen en selecteer **Run 'projectnaam...'**:
 
     ![maven-run-pt2](screenshots/9-maven-run-pt2.png)
 

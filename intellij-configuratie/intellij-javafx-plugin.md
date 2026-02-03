@@ -8,7 +8,7 @@ Gebruik de `Shift+Shift` sneltoets en zoek naar "plugins":
 
 Typ "javafx" in de zoekbalk. Controleer of de JavaFX plugin geïnstalleerd en actief is:
 
-- het vinkje staat aan (indien niet: klik op "Install")
+- het vinkje staat aan (indien niet: klik op **Install**)
 - de plugin is _enabled_ (op de knop staat "Disable", dat wijst erop dat de plugin actief is)
 
 ![intellij-configuratie-javafx-plugin.png](screenshots/intellij-configuratie-javafx-plugin.png)

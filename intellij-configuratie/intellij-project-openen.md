@@ -10,6 +10,6 @@ Als je "This Window" kiest, wordt het huidige project gesloten en wordt het nieu
 
 Als je vaak meerdere projecten tegelijk open wil hebben, kan het handig zijn om deze standaard in een nieuw venster te openen.
 
-Je kan een standaardoptie selecteren door "Don't ask again" aan te vinken. Je kan die altijd nog terug wijzigen in de "Settings" menu (`Ctrl+Alt+S`) onder Appearance & Behavior > System Settings:
+Je kan een standaardoptie selecteren door "Don't ask again" aan te vinken. Je kan die altijd nog terug wijzigen in het **Settings** menu (`Ctrl+Alt+S`) onder **Appearance & Behavior** > **System Settings**:
 
 ![project-newwindow.png](screenshots/project-newwindow.png)

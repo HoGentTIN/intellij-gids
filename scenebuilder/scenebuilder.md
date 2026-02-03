@@ -8,17 +8,17 @@ Scene Builder wordt in OOSDII enkel gebruikt in hoofdstuk 5, maar kan ook nuttig
 
 Als eerste moet je naar een `.fxml` bestand gaan.
 Wanneer je dit opent, dan heb je onderaan (zie pijl) de optie om deze tekstueel te openen (default) of in Scene Builder.
-Klik op de tab "Scene Builder".
+Klik op de tab **Scene Builder**.
 
 ![](screenshots/1-scene-builder-tab.png)
 
 Wanneer je voor de eerste keer op de tab klikt, krijg je een scherm met een foutboodschap.
-Klik rechts op de knop "Download Scene Builder Kit".
+Klik rechts op de knop **Download Scene Builder Kit**.
 
 ![](screenshots/2-download-scene-builder-kit.png)
 
 Vervolgens krijg je mogelijk nog een foutboodschap.
-Klik op de knop "Download JavaFX".
+Klik op de knop **Download JavaFX**.
 Dit is op het eerste zicht wat vreemd, maar het gaat over de Windows-distributies van de javafx jars.
 
 ![](screenshots/3-download-javafx.png)

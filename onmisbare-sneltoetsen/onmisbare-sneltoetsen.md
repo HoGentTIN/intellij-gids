@@ -38,7 +38,7 @@ Met `Ctrl+Shift+w` kan je de selectie terug verkleinen.
 
    ![Missing-library](screenshots/context-actions-add-lib-with-quickfix.webp)
 
-- Je kan zelfs een testklasse maken met deze sneltoets: plaats de cursor in de definitie van je klassenaam, druk op `Alt+Enter` en selecteer "Create Test".
+- Je kan zelfs een testklasse maken met deze sneltoets: plaats de cursor in de definitie van je klassenaam, druk op `Alt+Enter` en selecteer **Create Test**.
 
    ![Create test](screenshots/context-actions-create-test.webp)
 

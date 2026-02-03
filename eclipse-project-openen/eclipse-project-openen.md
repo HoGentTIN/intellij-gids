@@ -19,7 +19,7 @@ Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap. Ook al
 
     ![mappen-slepen](screenshots/mappen-slepen.png)
 
-4. Er verschijnt een dialoogvenster. Bevestig met "Refactor".
+4. Er verschijnt een dialoogvenster. Bevestig met **Refactor**.
 5. De bestanden staan nu onder `main/java`:
 
     ![bestanden onder java](screenshots/bestandenonderjava.png)
@@ -42,7 +42,7 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 
     ![test slepen](screenshots/testslepen.png)
 
-5. Bevestig opnieuw met "Refactor".
+5. Bevestig opnieuw met **Refactor**.
 
 6. Controleer dat je test zich op dezelfde plaats in de mappenstructuur bevindt als de te testen klasse:
 
@@ -88,13 +88,13 @@ Volg onderstaande stappen:
 
     ![alt text](screenshots/doosmetstring-1.png)
 
-    Klik op "Next" en vervolgens op "Create".
+    Klik op **Next** en vervolgens op **Create**.
 
 2. Verwijder onder `main/java` alle bestanden en ook het package `org.example.<projectnaam>`:
 
     ![alt text](screenshots/doosmetsring-2.png)
 
-3. Copy-paste alle niet-testbestanden (in hun packages) uit src naar de java-map in IntelliJ. Bevestig met "OK".
+3. Copy-paste alle niet-testbestanden (in hun packages) uit src naar de java-map in IntelliJ. Bevestig met **OK**.
 
     ![alt text](screenshots/doosmetstring-3.png)
 
@@ -131,7 +131,7 @@ Volg onderstaande stappen:
 
     ![alt text](screenshots/doosmetstring-9.png)
 
-Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op "Refactor anyway". 
+Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op **Refactor anyway**. 
 
 ### 2.3. Foutmeldingen in de testklassen
 
