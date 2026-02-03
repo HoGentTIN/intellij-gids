@@ -54,14 +54,7 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
        <dependency>
            <groupId>org.junit.jupiter</groupId>
            <artifactId>junit-jupiter</artifactId>
-           <version>6.0.1</version>
-           <scope>test</scope>
-       </dependency>
-
-       <dependency>
-           <groupId>org.junit.platform</groupId>
-           <artifactId>junit-platform-engine</artifactId>
-           <version>6.0.1</version>
+           <version>5.13.4</version>
            <scope>test</scope>
        </dependency>
    </dependencies>
@@ -145,26 +138,16 @@ Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op "
 
 Als je testklasse gebruik maakt van geparametriseerde tests, krijg je bij de imports mogelijk de foutmelding "Cannot resolve symbol 'params'". Dit wijst erop dat de dependency voor `params` ontbreekt in `pom.xml`. Vervang de JUnit dependencies (let wel: enkel de JUnit dependencies!) door onderstaande:
 
-```xml
-<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>${junit.version}</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-engine</artifactId>
-    <version>${junit.version}</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-params</artifactId>
-    <version>${junit.version}</version>
-    <scope>test</scope>
-</dependency>
-```
+   ```xml
+   <dependencies>
+       <dependency>
+           <groupId>org.junit.jupiter</groupId>
+           <artifactId>junit-jupiter</artifactId>
+           <version>5.13.4</version>
+           <scope>test</scope>
+       </dependency>
+   </dependencies>
+   ```
 
 Bewaar en voer de Maven synchronisatie uit.
 
