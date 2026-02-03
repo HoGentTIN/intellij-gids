@@ -6,9 +6,9 @@ Je herkent een Eclipse-project aan het `.project`-bestand in de hoofdmap. Ook al
 
 ## 1. Controleer of het om een grafisch project gaat
 
-Open de `src`-map: zit hier een package (folder) `gui` in? Dan is dit een grafisch project. Volg de stappen onder [Een grafisch (JavaFX) project openen](#2-een-grafisch-javafx-project-openen).
+Open de `src`-map: zit hier een package (folder) `gui` in? Dan is dit een grafisch project. Volg de stappen onder [Een grafisch (JavaFX) project openen](#3-een-grafisch-javafx-project-openen).
 
-Indien het package `gui` niet aanwezig is, is dit een niet-grafisch project. Volg de stappen onder [Een niet-grafisch project openen](#1-een-niet-grafisch-project-openen).
+Indien het package `gui` niet aanwezig is, is dit een niet-grafisch project. Volg de stappen onder [Een niet-grafisch project openen](#2-een-niet-grafisch-project-openen).
 
 ## 2. Een niet-grafisch project openen
 
