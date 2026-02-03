@@ -1,0 +1,20 @@
+/* Image zoom */
+.img-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+  display: flex; justify-content: center; align-items: center; z-index: 9999;
+}
+.img-modal-backdrop img {
+  max-width: 90vw; max-height: 90vh; box-shadow: 0 0 10px #000;
+}
+/* Scroll top button */
+#scroll-top-btn {
+  position: fixed; bottom: 20px; right: 20px; left: 270px;
+  width: 50px; height: 50px; border-radius: 50%; background: rgba(0,0,0,0.7);
+  color: white; border: none; font-size: 20px; font-weight: bold; cursor: pointer;
+  opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 9998;
+  margin-left: auto;
+}
+#scroll-top-btn:hover { background: rgba(0,0,0,0.9); transform: scale(1.1); }
+#scroll-top-btn.show { opacity: 1; visibility: visible; }
+@media (max-width: 768px) { #scroll-top-btn { left: auto; right: 20px; } }
+img { cursor: zoom-in !important; }
