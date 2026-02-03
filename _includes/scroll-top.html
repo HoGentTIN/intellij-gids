@@ -1,10 +1,12 @@
-<!-- Scroll to top button -->
+<!-- Scroll to top button (aligned to content) -->
 <button id="scroll-top-btn" title="Naar boven">↑</button>
 <style>
 #scroll-top-btn {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 20px; /* Inside section/content */
+  left: 270px; /* Past sidebar width (~250px + margin) */
+  margin-left: auto; /* Aligns right within bounds */
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -27,17 +29,21 @@
   opacity: 1;
   visibility: visible;
 }
+/* Mobile: full right */
+@media (max-width: 768px) {
+  #scroll-top-btn {
+    left: auto;
+    right: 20px;
+  }
+}
 </style>
 <script>
 let scrollBtn = document.getElementById('scroll-top-btn');
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 300) {
-    scrollBtn.classList.add('show');
-  } else {
-    scrollBtn.classList.remove('show');
-  }
+  if (window.scrollY > 300) scrollBtn.classList.add('show');
+  else scrollBtn.classList.remove('show');
 });
 scrollBtn.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({top: 0, behavior: 'smooth'});
 });
 </script>
