@@ -79,7 +79,7 @@ Op de Toolbox-pagina wordt automatisch een downloadlink voor jouw systeem getoon
 
 ![](screenshots/toolbox-1.png)
 
-Na het downloaden, open je de installer en start je de installatie door op **Install** te klikken.
+Na het downloaden, open de installer en start de installatie door op **Install** te klikken.
 
 ![](screenshots/toolbox-2.png)
 
@@ -89,9 +89,7 @@ Ga akkoord met de voorwaarden en klik op **Starten**.
 
 Open de Toolbox-app en ga naar het tabblad **Tools**.
 
-OPGELET: er is ook een applicatie "IntelliJ IDEA Community", deze is niet de juiste.
-
-Zoek de applicatie **IntelliJ IDEA Ultimate** en installeer deze.
+Zoek de applicatie **IntelliJ IDEA** en installeer deze.
 
 ![](screenshots/toolbox-4.png)
 
