@@ -59,6 +59,19 @@ Je kan de volledige lijst met templates vinden onder Settings > Editor > General
 
    ![Create test](screenshots/context-actions-create-test.webp)
 
+## Auto-indent
+
+Met `Ctrl+Alt+l` kan je de indentatie in de java-file waarin je aan het werken bent, automatisch laten corrigeren.
+
+**Voorbeeld:**
+* Vóór gebruik `Ctrl+Alt+l`:
+
+   ![voor](screenshots/voor-auto-indent.png) 
+* Na gebruik `Ctrl+Alt+l`:
+   
+   ![na](screenshots/na-auto-indent.png) 
+
+
 ## Er zijn nog veel meer sneltoetsen
 
 Een volledig overzicht van de sneltoetsen in IntelliJ vind je bij de links.
