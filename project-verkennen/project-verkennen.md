@@ -4,12 +4,12 @@
 
 ## De projectstructuur
 
-Wanneer je een project opent, wordt de project explorer links automatisch getoond:
+Wanneer je een project opent, wordt de project explorer links automatisch getoond.
+
+- Je kan deze zelf ook tonen/verbergen door op het folder-icoon links (1) te klikken.
+- De klassen bevinden zich onder `src/main/java` (2).
 
 ![projectstructuur](<screenshots/1-project explorer.png>)
-
--  Je kan deze zelf ook tonen/verbergen door op het folder-icoon links (1) te klikken.
-- De klassen bevinden zich onder `src/main/java` (2).
 
 ## De structuur van een klasse
 
