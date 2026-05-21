@@ -63,8 +63,6 @@ navigation:
     sublist:
     - name: Een bestaand Eclipse-project of een src-map openen
       link: /intellij-gids/eclipse-project-openen/eclipse-project-openen.html
-    - name: De VP integratie gebruiken
-      link: /intellij-gids/extra/vp-integratie-gebruiken.html
 
 defaults:
   - scope:
