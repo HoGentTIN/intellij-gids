@@ -48,6 +48,8 @@ navigation:
         link: /intellij-gids/maven-project-openen-OOSDII/maven-project-openen-OOSDII.html
       - name: Dependencies toevoegen
         link: /intellij-gids/dependencies-toevoegen/dependencies-toevoegen.html
+      - name: Een project verkennen
+        link: /intellij-gids/project-verkennen/project-verkennen.html
       - name: Runnen en debuggen
         link: /intellij-gids/runnen-en-debuggen/runnen-en-debuggen.html
       - name: Werken met Scene Builder

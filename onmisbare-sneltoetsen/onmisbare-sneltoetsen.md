@@ -61,13 +61,13 @@ Je kan de volledige lijst met templates vinden onder Settings > Editor > General
 
 ## Auto-indent
 
-Met `Ctrl+Alt+l` kan je de indentatie in de java-file waarin je aan het werken bent, automatisch laten corrigeren.
+Met `Ctrl+Alt+i` kan je de indentatie in de java-file waarin je aan het werken bent, automatisch laten corrigeren.
 
 **Voorbeeld:**
-* Vóór gebruik `Ctrl+Alt+l`:
+* Vóór gebruik `Ctrl+Alt+i`:
 
    ![voor](screenshots/voor-auto-indent.png) 
-* Na gebruik `Ctrl+Alt+l`:
+* Na gebruik `Ctrl+Alt+i`:
    
    ![na](screenshots/na-auto-indent.png) 
 
