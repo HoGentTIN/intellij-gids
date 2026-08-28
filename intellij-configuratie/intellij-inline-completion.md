@@ -6,7 +6,7 @@ Tijdens het maken van oefeningen en op het examen is het gebruik van inline comp
 
 Start IntelliJ op. Open het **Settings** menu met `Ctrl+Alt+S`.
 
-Editor > General > Inline Completion > Enable local Full Line completion suggestions **uitschakelen**:
+Editor > General > Code Completion > Inline > Enable inline completion... **uitschakelen**:
 
 ![](screenshots/inline-completion-UIT.png)
 
