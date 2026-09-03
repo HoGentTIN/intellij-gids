@@ -7,10 +7,10 @@ navigation:
   - name: Welkom
     link: /intellij-gids/
   - name: Installatie software
-    link: /intellij-gids/jdk/jdk.html
+    link: /intellij-gids/jdk-21/jdk-21.html
     sublist:
-      - name: JDK
-        link: /intellij-gids/jdk/jdk.html
+      - name: JDK 21
+        link: /intellij-gids/jdk-21/jdk-21.html
       - name: 7-zip
         link: /intellij-gids/7-zip/7-zip.html
       - name: Scene Builder

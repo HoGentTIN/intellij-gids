@@ -99,8 +99,6 @@ De eerste keer dat je IntelliJ opent, verschijnt een activatiescherm. Klik op **
 
 ![](screenshots/intellij-1.png)
 
-Als dit niet vanzelf verschijnt, kun je ook links onderaan op het tandwiel klikken > **Manage Licenses...**
-
 Klik op **Log in to JetBrains Account**. Er opent een browservenster.
 
 ![](screenshots/intellij-2.png)

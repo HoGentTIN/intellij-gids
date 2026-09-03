@@ -4,8 +4,16 @@
 
 Ga naar <https://gluonhq.com/products/scene-builder/>
 
-Download de installer en voer deze uit.
+Download de juiste versie voor je besturingssysteem:
 
-Voorbeeld van een geslaagde installatie onder `AppData` op Windows:
+![scenebuilder-download.png](screenshots/scenebuilder-download.png)
 
-![scenebuilder-in-default-folder.png](screenshots/scenebuilder-in-default-folder.png)
+Maak een nieuwe map, bv. `C:\Program Files\SceneBuilder24`
+
+Open de installer en volg de stappen, kies je map als Destination Folder:
+
+![scenebuilder-mapselecteren.png](screenshots/scenebuilder-mapselecteren.png)
+
+Na installatie:
+
+![scenebuilder-in-map.png](screenshots/scenebuilder-in-map.png)
