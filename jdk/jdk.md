@@ -4,7 +4,7 @@
 
 Installeer de Java Development Kit versie 25. Installatiebestanden voor Linux, macOS en Windows zijn beschikbaar via deze link:
 
-<https://www.oracle.com/europe/java/technologies/downloads/#java21>
+<https://www.oracle.com/europe/java/technologies/downloads/#java25>
 
 Download de gepaste **Installer** en voer uit. 
 
