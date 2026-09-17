@@ -14,20 +14,14 @@ Je kan de standaard dependencies toevoegen voor de projecten die we gebruiken in
 1. Open de `pom.xml` van je project en plak onderstaande code net voor `</project>`:
 
    ```xml
-   <dependencies>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-api</artifactId>
-           <version>5.13.4</version>
-           <scope>test</scope>
-       </dependency>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-params</artifactId>
-           <version>5.13.4</version>
-           <scope>test</scope>
-       </dependency>
-   </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.4</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
    ```
    
 2. Sla het bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren.
@@ -58,18 +52,10 @@ Volg precies dezelfde stappen als hierboven, maar plak onderstaande dependencies
 
     <dependency>
         <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
+        <artifactId>junit-jupiter</artifactId>
         <version>5.13.4</version>
         <scope>test</scope>
     </dependency>
-
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
-        <version>5.13.4</version>
-        <scope>test</scope>
-    </dependency>
-
 </dependencies>
 ```
 

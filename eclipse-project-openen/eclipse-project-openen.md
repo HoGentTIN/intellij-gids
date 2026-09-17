@@ -52,20 +52,14 @@ In Maven _moeten_ de tests in een package komen met dezelfde naam als het packag
 7. Vul de JUnit dependencies aan in de `pom.xml`: plak onderstaande code net _voor_ `</project>`:
 
    ```xml
-   <dependencies>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-api</artifactId>
-           <version>5.13.4</version>
-           <scope>test</scope>
-       </dependency>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-params</artifactId>
-           <version>5.13.4</version>
-           <scope>test</scope>
-       </dependency>
-   </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.4</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
    ```
 
 8. Sla het `pom.xml` bestand op. IntelliJ detecteert de wijziging en toont een sync-icoon. Klik hierop om een Maven sync uit te voeren (meer informatie over het toevoegen van dependencies vind je onder *Dependencies toevoegen*):
@@ -139,26 +133,3 @@ Volg onderstaande stappen:
     ![alt text](screenshots/doosmetstring-9.png)
 
 Als je een waarschuwing krijgt bij het overzetten van een testbestand, klik op **Refactor anyway**. 
-
-### 3.3. Foutmeldingen in de testklassen
-
-Als je testklasse gebruik maakt van geparametriseerde tests, krijg je bij de imports mogelijk de foutmelding "Cannot resolve symbol 'params'". Dit wijst erop dat de dependency voor `params` ontbreekt in `pom.xml`. Vervang de JUnit dependencies (let wel: enkel de JUnit dependencies!) door onderstaande:
-
-   ```xml
-   <dependencies>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter</artifactId>
-           <version>5.13.4</version>
-           <scope>test</scope>
-       </dependency>
-   </dependencies>
-   ```
-
-Bewaar en voer de Maven synchronisatie uit.
-
-![alt text](screenshots/doosmetstring-10.png)
-
-![alt text](screenshots/doosmetstring-11.png)
-
-Nu kun je de tests uitvoeren zoals beschreven in de sectie over niet-grafische Eclipse projecten.
